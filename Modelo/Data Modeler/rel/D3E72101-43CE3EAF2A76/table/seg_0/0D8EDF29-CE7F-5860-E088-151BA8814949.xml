@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0D8EDF29-CE7F-5860-E088-151BA8814949" name="Equipo">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<generatorID>AB5B08D5-2F6A-E8ED-6A44-B65202A9EA05</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdEquipo" id="C6BF2B71-D396-0195-186C-490801EFBFDD">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<generatorID>8C22B86A-D96A-DA13-EBBA-26CB1BBBAAFC</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="A4F07041-2E64-75C9-75A3-0A77044DC312">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<generatorID>0DEDBBB4-2D68-BE88-990A-1E2AA42BEA58</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Confederacion" id="F8070A3A-782C-EE12-1080-88AEF1DC39CC">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<generatorID>A4C8D701-CDE1-13EC-ACB7-4EEC013CCF42</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DirectorTecnico_IdDirectorTecnico" id="4ADBD6CE-6978-1DA1-230C-E0B589B0B0CE">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<generatorID>3D81448B-BD8D-AF85-55A3-05D95AC6D15C</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC02C694-196A-65E0-C8F3-8CBCE995365F" referredColumn="1ECF5CB3-30BC-3283-359C-19DC8958AFA0"/>
+</associations>
+</Column>
+<Column name="DirectorTecnico_IdDirectorTecnico1" id="78CFC0A8-6E47-808A-33A7-F0186FA6E333">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<generatorID>2704CB50-12F1-8ADC-68FD-C6A86D709161</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="836AC749-E11B-A39D-DDC6-FFD2699E6F78" referredColumn="1ECF5CB3-30BC-3283-359C-19DC8958AFA0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="06A1E464-46B2-8ADC-07F1-EB74FC1D5ED0" name="Equipo_PK">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<generatorID>160563E6-7A9C-3592-375C-BE475FC2FB64</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6BF2B71-D396-0195-186C-490801EFBFDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A454E98-954F-ADD7-79AD-0878F4AE2C5E" name="Equipo_DirectorTecnico_FK">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<generatorID>DBF059BE-7D0B-4D32-B9F2-BBE32FAF4454</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78CFC0A8-6E47-808A-33A7-F0186FA6E333"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00AC4FCA-7925-BF83-8530-34CB057610D5" name="Equipo_DirectorTecnico_FKv1">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<generatorID>5EE82A72-14D9-3510-08F0-BEE2E10054F0</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4ADBD6CE-6978-1DA1-230C-E0B589B0B0CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

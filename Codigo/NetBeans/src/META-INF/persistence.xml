@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="MundialRusiaPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>co.edu.javeriana.mundialrusia.datos.Estadio</class>
+    <class>co.edu.javeriana.mundialrusia.datos.Equipo</class>
+    <class>co.edu.javeriana.mundialrusia.datos.Pais</class>
+    <class>co.edu.javeriana.mundialrusia.datos.Clienteporpartido</class>
+    <class>co.edu.javeriana.mundialrusia.datos.Gol</class>
+    <class>co.edu.javeriana.mundialrusia.datos.Calendario</class>
+    <class>co.edu.javeriana.mundialrusia.datos.Jugadorporpartido</class>
+    <class>co.edu.javeriana.mundialrusia.datos.Juezporpartido</class>
+    <class>co.edu.javeriana.mundialrusia.datos.Partido</class>
+    <class>co.edu.javeriana.mundialrusia.datos.Tarjeta</class>
+    <class>co.edu.javeriana.mundialrusia.datos.Juez</class>
+    <class>co.edu.javeriana.mundialrusia.datos.Silla</class>
+    <class>co.edu.javeriana.mundialrusia.datos.Directortecnico</class>
+    <class>co.edu.javeriana.mundialrusia.datos.Categoria</class>
+    <class>co.edu.javeriana.mundialrusia.datos.Categoriaporpartido</class>
+    <class>co.edu.javeriana.mundialrusia.datos.Club</class>
+    <class>co.edu.javeriana.mundialrusia.datos.Cliente</class>
+    <class>co.edu.javeriana.mundialrusia.datos.Jugador</class>
+    <class>co.edu.javeriana.mundialrusia.datos.Categoriaporestadio</class>
+    <class>co.edu.javeriana.mundialrusia.datos.Sillaporestadio</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@orion.javeriana.edu.co:1521:PUJDB"/>
+      <property name="javax.persistence.jdbc.user" value="is174612"/>
+      <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
+      <property name="javax.persistence.jdbc.password" value="JjDDSKcEEV"/>
+    </properties>
+  </persistence-unit>
+</persistence>

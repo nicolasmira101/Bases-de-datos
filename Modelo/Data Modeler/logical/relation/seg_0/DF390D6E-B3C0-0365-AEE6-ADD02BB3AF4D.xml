@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EquipoVisitante" directorySegmentName="seg_0" id="DF390D6E-B3C0-0365-AEE6-ADD02BB3AF4D">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-03-28 18:01:09 UTC</createdTime>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<engineerTo>
+<item key="2CC69B48-E403-DEB0-6247-5FC4E78212A1" value="true"/>
+</engineerTo>
+<sourcePk>160563E6-7A9C-3592-375C-BE475FC2FB64</sourcePk>
+<targetPk>883A3FCB-D41A-8C61-8F1D-DC5A67F3DF15</targetPk>
+<identifying>false</identifying>
+<nameOnSource>Juega</nameOnSource>
+<nameOnTarget>Tiene</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AB5B08D5-2F6A-E8ED-6A44-B65202A9EA05</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6DDE3E7E-DA4B-62A5-2CBF-FB6B7AD0D0D9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

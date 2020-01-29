@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D326F4D6-EA74-4151-1CDF-7AFE3BB8482E" name="Cliente">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<generatorID>82C37583-5A53-425C-FED1-68CB1186F7E4</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdCliente" id="21E4C2E3-18FC-E801-5A88-9534DC941F4F">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<generatorID>04A997EE-B027-B54B-9F8F-061CBD24D265</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="C14116F5-D253-EF37-82F0-7BC589AF8470">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<generatorID>2AD1865A-3E12-1D31-80CE-DEDDF815525C</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido" id="6C520318-52AE-EFE7-7455-E045F9C573D4">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<generatorID>CC45EE00-39DC-505A-4917-E98F7E077E7C</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pasaporte" id="E4AB485F-AE83-8577-ADE3-1A83B2DD3D00">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<generatorID>ABEB11CD-91FE-67ED-97B8-82A2B3371AFB</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Correo" id="34755993-F755-01BE-EEC2-E7723A8C3EB4">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<generatorID>C081AAEB-A6F0-6419-9155-091BF5A4647C</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Direccion" id="68BD34D5-B65D-698E-FFB4-F0A4C51D1094">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<generatorID>41F51807-83BA-54C7-49F5-CB041793964B</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2A519BFD-1F83-0864-8DC1-7202C4B5E865" name="Cliente_PK">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<generatorID>DCE7714A-0D9E-00CF-FF04-1211EA727365</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21E4C2E3-18FC-E801-5A88-9534DC941F4F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A64CED6E-1B5A-946E-DC1D-5EE1FDC86187" containerWithKeyObject="C309EA8C-7533-21D5-2F91-0CDBDD72FA49" localFKIndex="7A21DBD8-8001-F2E4-0893-70F839F767AD" name="Jugador_Pais_FK">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<generatorID>07E7409B-9FEA-C964-0995-BE2235879D76</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<referredTableLongName>Pais</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F5AC5852-EFFD-C581-FD7C-491498F9E25E</referredTableID>
+<keyObject>32401AEC-5CCF-34C7-31BE-820F7310CB61</keyObject>
+<referredKeyID>32401AEC-5CCF-34C7-31BE-820F7310CB61</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdPais</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

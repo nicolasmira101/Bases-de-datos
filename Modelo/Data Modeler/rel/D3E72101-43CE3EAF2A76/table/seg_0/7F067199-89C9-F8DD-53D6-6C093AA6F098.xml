@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7F067199-89C9-F8DD-53D6-6C093AA6F098" name="Tarjeta">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<generatorID>D25FB1A2-E8FF-35A2-5FC0-38092882005D</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdTarjeta" id="BB4C8CA1-4AD6-EF55-DC3C-468EC96597F1">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<generatorID>1A904201-9902-15F8-FE45-1A2342C74012</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Minuto" id="29FBB184-FD4E-DB9E-2BD4-A83B943AD42B">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<generatorID>2073FCEC-B5C9-9281-1ECA-579E006A288D</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo" id="B278ABC0-82C2-5978-A6CC-530441EC7B6C">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<generatorID>EE7FC2E5-7549-8BD2-95C7-5C1E2A49852D</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Partido_IdPartido" id="7291CCFF-F62E-7096-DC97-48A918939A23">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<generatorID>11DD886F-061F-6FBD-59FE-DCC7FDEA3E48</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="966FBE24-7DA6-0A6C-3FA5-8096E963ECEE" referredColumn="65121FC4-682B-EDAD-83E0-A0BF7B1BB076"/>
+</associations>
+</Column>
+<Column name="Jugador_IdJugador" id="867D8850-0F76-FE97-F7CF-B1ECF3BC8ACE">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<generatorID>4F634163-C386-E7FE-260A-F5AA3B68052B</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="719BB8FF-48D3-994F-8248-714C91AC6118" referredColumn="D894C885-B4A0-C13A-C58A-2A32C1AA5BFA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6E7CB746-BE58-11B8-AE8E-33CC5062D2EC" name="Tarjeta_PK">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<generatorID>02954174-8152-896D-101F-69773C668DFB</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB4C8CA1-4AD6-EF55-DC3C-468EC96597F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="297E140C-E1DB-4791-338D-93A3A8331617" name="Tarjeta_Partido_FK">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<generatorID>24247A8B-2E34-3A37-6E78-3EEFABED5445</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7291CCFF-F62E-7096-DC97-48A918939A23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C420F4A9-9946-DDFC-0D8B-A6A309998D07" name="Tarjeta_Jugador_FK">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<generatorID>CC6AA3BD-4578-0694-67B3-704E0DCC02FB</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="867D8850-0F76-FE97-F7CF-B1ECF3BC8ACE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

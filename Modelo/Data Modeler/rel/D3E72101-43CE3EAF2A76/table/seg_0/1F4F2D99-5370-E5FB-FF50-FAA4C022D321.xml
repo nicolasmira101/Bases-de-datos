@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1F4F2D99-5370-E5FB-FF50-FAA4C022D321" name="Partido">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<generatorID>6DDE3E7E-DA4B-62A5-2CBF-FB6B7AD0D0D9</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdPartido" id="65121FC4-682B-EDAD-83E0-A0BF7B1BB076">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<generatorID>D9AD5A58-8695-E021-CA1F-90EF1A4F8A18</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha" id="86F3A109-23AE-D93F-12D8-921F68C53BC5">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<generatorID>20E036A0-E576-2B97-030C-AF251BBB38CF</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Equipo_IdEquipo" id="DC741E68-6129-2192-862C-AFCC9DDA6AE1">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<generatorID>EBEF4EE3-27A0-7922-D350-8A770589C637</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7E9A7A6-1B57-7A14-37B2-BB927D8E2D0F" referredColumn="C6BF2B71-D396-0195-186C-490801EFBFDD"/>
+</associations>
+</Column>
+<Column name="Equipo_IdEquipo1" id="EF377EEF-97D4-427E-DA24-C4CB9E123E5E">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<generatorID>8DE2DCA0-F8F5-586A-8DAA-32C60C73CED8</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="335FE40F-750F-59B6-2228-25B393A695C9" referredColumn="C6BF2B71-D396-0195-186C-490801EFBFDD"/>
+</associations>
+</Column>
+<Column name="Calendario_IdCalendario" id="F97372E4-8D9C-C05F-EA6A-D743E6333204">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<generatorID>DE97A9A5-D00E-BFB0-173A-A8CF1AB4E765</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A1F37DC0-0AD3-F2EA-ED55-0431B8D5E59D" referredColumn="7C3CCE20-F218-735B-F411-F99E4CF23EB1"/>
+</associations>
+</Column>
+<Column name="Estadio_IdEstadio" id="2F8A0388-BEB6-17F3-DD7D-CE24066BD901">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<generatorID>EB19AFA2-7109-D62F-4A5D-A4801B299D92</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5DA58409-79D9-A6C9-DE12-9364FEA4ACD5" referredColumn="014101FE-EBA6-1A40-43A3-53AAF25EE56D"/>
+</associations>
+</Column>
+<Column name="Precio" id="9A085479-5F9F-6145-4CC6-2EFACE969A9F">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 17:01:43 UTC</createdTime>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0283D261-E648-6A68-2B14-951BE78225E3" name="Partido_PK">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<generatorID>883A3FCB-D41A-8C61-8F1D-DC5A67F3DF15</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65121FC4-682B-EDAD-83E0-A0BF7B1BB076"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E1FB10F-B91E-9968-70DC-17E2F64749F7" name="Partido_Calendario_FK">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<generatorID>796F0BB6-A5BB-90F5-CD4A-AA0CDCA12835</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F97372E4-8D9C-C05F-EA6A-D743E6333204"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="936308F4-97FB-4F36-12FC-C2E1FBE49767" name="Partido_Equipo_FK">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<generatorID>C53FDDD5-5D94-287F-3A76-FCABA099D9CB</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF377EEF-97D4-427E-DA24-C4CB9E123E5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC45EA72-4265-8F30-C0BA-FC3D81375FE6" name="Partido_Equipo_FKv1">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<generatorID>DF390D6E-B3C0-0365-AEE6-ADD02BB3AF4D</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC741E68-6129-2192-862C-AFCC9DDA6AE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="558FB49F-8565-8041-F67A-512597B0E052" name="Partido_Estadio_FK">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<generatorID>D9CC0E31-F4F1-5608-9F00-689409F29A38</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F8A0388-BEB6-17F3-DD7D-CE24066BD901"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

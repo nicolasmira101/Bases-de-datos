@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="GolesDelJugador" directorySegmentName="seg_0" id="8BC35F6C-7CCC-D63D-3892-5A602E44D9DB">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-03 02:36:16 UTC</createdTime>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<engineerTo>
+<item key="2CC69B48-E403-DEB0-6247-5FC4E78212A1" value="true"/>
+</engineerTo>
+<sourcePk>77B2BA90-B73F-4EFD-8713-067028EEC99E</sourcePk>
+<targetPk>1690B3FB-1B5B-055B-F685-3F225FD6C3FB</targetPk>
+<identifying>false</identifying>
+<nameOnSource>Hace</nameOnSource>
+<nameOnTarget>Anotado</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4FCD423D-DAF9-78AD-C1CC-A31C4B4873A5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B0F2DBCC-BE22-19C6-4680-726F526E40DA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

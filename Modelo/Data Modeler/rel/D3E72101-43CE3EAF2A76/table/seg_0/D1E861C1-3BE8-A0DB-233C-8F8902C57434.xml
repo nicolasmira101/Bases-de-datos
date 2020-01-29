@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D1E861C1-3BE8-A0DB-233C-8F8902C57434" name="ClubesPorJugador">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdJugador" id="D5564E67-700A-520E-8F84-13BD3A075CF8">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71D5199E-261A-BCE0-C85D-90960871199B" referredColumn="D894C885-B4A0-C13A-C58A-2A32C1AA5BFA"/>
+</associations>
+</Column>
+<Column name="IdClub" id="64A0B140-750A-8BC2-F4BD-20C16DE8CB1D">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C121BECA-BB86-C56F-6C62-8A3561E235EE" referredColumn="5CAAA144-FC1F-984E-B7B2-ABF4F3386823"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="15799F98-E0BB-A9EA-0947-BD791A7E58C1" name="ClubesPorJugador_PK">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5564E67-700A-520E-8F84-13BD3A075CF8"/>
+<colUsage columnID="64A0B140-750A-8BC2-F4BD-20C16DE8CB1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04433C44-BB4D-F99E-7326-A5B430C94199" name="ClubesPorJugador_Jugador_FK">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<generatorID>C0E442D7-9B22-B750-D6B9-99303C332E00</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5564E67-700A-520E-8F84-13BD3A075CF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B4423E4-D464-313A-D7C3-C7FAB3FC6FA5" name="ClubesPorJugador_Club_FK">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<generatorID>C0E442D7-9B22-B750-D6B9-99303C332E00</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64A0B140-750A-8BC2-F4BD-20C16DE8CB1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

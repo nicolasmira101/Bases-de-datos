@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ClubesPorJugador" directorySegmentName="seg_0" id="C0E442D7-9B22-B750-D6B9-99303C332E00">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-03-28 19:41:02 UTC</createdTime>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<engineerTo>
+<item key="2CC69B48-E403-DEB0-6247-5FC4E78212A1" value="true"/>
+</engineerTo>
+<sourcePk>77B2BA90-B73F-4EFD-8713-067028EEC99E</sourcePk>
+<targetPk>B446F027-721E-A6B9-5C3F-6C73F1492746</targetPk>
+<identifying>false</identifying>
+<nameOnSource>Pertenecio</nameOnSource>
+<nameOnTarget>Jugo</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>4FCD423D-DAF9-78AD-C1CC-A31C4B4873A5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B9A1D158-DDF2-FF27-E07C-4B4A780F04C2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

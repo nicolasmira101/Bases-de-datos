@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="46521FAA-6C1D-18E6-AA95-4A6224745F22" name="JugadorPorPartido">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdPartido" id="53E8010E-8AF8-C992-19C5-BDEE9DA53A51">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="016B6D67-361F-F507-0F67-347190BC9F1D" referredColumn="65121FC4-682B-EDAD-83E0-A0BF7B1BB076"/>
+</associations>
+</Column>
+<Column name="IdJugador" id="05E3E415-DD01-E48E-F695-D0EBB33207E9">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B9BD5631-782E-7ED8-374E-58565B04BCBA" referredColumn="D894C885-B4A0-C13A-C58A-2A32C1AA5BFA"/>
+</associations>
+</Column>
+<Column name="Posicion" id="79C987AA-21CC-6A4A-41A7-F5A22CAF822C">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 17:01:15 UTC</createdTime>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo" id="BF6368AB-246A-BFA0-2B42-C54ABA22C756">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 17:01:26 UTC</createdTime>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="59369278-4312-F5E2-E9A0-4F5D469CAE1A" name="JugadorPorPartido_PK">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53E8010E-8AF8-C992-19C5-BDEE9DA53A51"/>
+<colUsage columnID="05E3E415-DD01-E48E-F695-D0EBB33207E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="884E6B3A-804D-0B60-4151-5AAF26958623" name="JugadorPorPartido_Partido_FK">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<generatorID>3D7850B7-6231-B0EC-62BC-CAB8EEB107C0</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53E8010E-8AF8-C992-19C5-BDEE9DA53A51"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2ECABA1C-CDF9-2FD7-9F1A-6871DBDB7661" name="JugadorPorPartido_Jugador_FK">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<generatorID>3D7850B7-6231-B0EC-62BC-CAB8EEB107C0</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05E3E415-DD01-E48E-F695-D0EBB33207E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

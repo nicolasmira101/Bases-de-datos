@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TarjetasDelJugador" directorySegmentName="seg_0" id="CC6AA3BD-4578-0694-67B3-704E0DCC02FB">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-03 02:35:20 UTC</createdTime>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<engineerTo>
+<item key="2CC69B48-E403-DEB0-6247-5FC4E78212A1" value="true"/>
+</engineerTo>
+<sourcePk>77B2BA90-B73F-4EFD-8713-067028EEC99E</sourcePk>
+<targetPk>02954174-8152-896D-101F-69773C668DFB</targetPk>
+<identifying>false</identifying>
+<nameOnSource>Sacan</nameOnSource>
+<nameOnTarget>Mostrada</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4FCD423D-DAF9-78AD-C1CC-A31C4B4873A5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D25FB1A2-E8FF-35A2-5FC0-38092882005D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

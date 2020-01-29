@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B0F2DBCC-BE22-19C6-4680-726F526E40DA" name="Gol">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-03-28 03:51:14 UTC</createdTime>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<engineerTo>
+<item key="D3E72101-6B87-DE67-C5E8-43CE3EAF2A76" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdGol" id="00CD7246-2EE8-718B-31FC-08E6990326DC">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-03-28 03:54:30 UTC</createdTime>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<engineerTo>
+<item key="D3E72101-6B87-DE67-C5E8-43CE3EAF2A76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Minuto" id="57D5784C-04A5-9FB1-3650-5BB94B107FD6">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-03-28 04:04:52 UTC</createdTime>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<engineerTo>
+<item key="D3E72101-6B87-DE67-C5E8-43CE3EAF2A76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tiempo" id="6EAEE124-9ABF-5CF8-6E1B-56B89AA6B5B0">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-03-28 04:05:04 UTC</createdTime>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<engineerTo>
+<item key="D3E72101-6B87-DE67-C5E8-43CE3EAF2A76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo" id="758A9337-1487-B7EF-1142-5044C62FEA9F">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-03-28 04:05:13 UTC</createdTime>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<engineerTo>
+<item key="D3E72101-6B87-DE67-C5E8-43CE3EAF2A76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UsoVAR" id="BBBA65F2-E940-9899-C682-98ECDBAF02C8">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-03-28 04:05:50 UTC</createdTime>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<engineerTo>
+<item key="D3E72101-6B87-DE67-C5E8-43CE3EAF2A76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdJugador" id="9D9DBB10-1F5E-123F-7565-BB14F605B8F9">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-03 02:36:16 UTC</createdTime>
+<generatorID>8BC35F6C-7CCC-D63D-3892-5A602E44D9DB</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<engineerTo>
+<item key="D3E72101-6B87-DE67-C5E8-43CE3EAF2A76" value="true"/>
+</engineerTo>
+<referedAttribute>37B1CF95-1321-247D-874C-798BE6564CA8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdPartido" id="FDBB2199-6070-D520-5517-DF7956AE4B97">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:52:47 UTC</createdTime>
+<generatorID>0F111F26-75E7-58AB-1FEF-3D69A1B1BDAA</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<engineerTo>
+<item key="D3E72101-6B87-DE67-C5E8-43CE3EAF2A76" value="true"/>
+</engineerTo>
+<referedAttribute>D9AD5A58-8695-E021-CA1F-90EF1A4F8A18</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1690B3FB-1B5B-055B-F685-3F225FD6C3FB" name="Gol PK">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-03-28 03:54:45 UTC</createdTime>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<engineerTo>
+<item key="D3E72101-6B87-DE67-C5E8-43CE3EAF2A76" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>00CD7246-2EE8-718B-31FC-08E6990326DC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

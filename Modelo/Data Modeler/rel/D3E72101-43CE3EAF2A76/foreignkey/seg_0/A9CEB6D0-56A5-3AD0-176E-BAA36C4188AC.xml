@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A9CEB6D0-56A5-3AD0-176E-BAA36C4188AC" containerWithKeyObject="3B65D969-6DE8-6C14-AB1A-E7F0D1116117" localFKIndex="7B3DF056-BD53-7852-ED10-17895038BCF4" name="JuezPorPartido_Juez_FK">
+<createdBy>nicolasmiranda</createdBy>
+<createdTime>2018-05-13 16:54:25 UTC</createdTime>
+<generatorID>768F29F1-AE20-C715-3B3C-3BB543115300</generatorID>
+<ownerDesignName>ModeloActualizado</ownerDesignName>
+<referredTableLongName>Juez</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8C41BB9B-2E29-1886-EBF2-66203AD5C07E</referredTableID>
+<keyObject>9C3D062E-5BFF-1754-E9BA-1C7C448EF8EC</keyObject>
+<referredKeyID>9C3D062E-5BFF-1754-E9BA-1C7C448EF8EC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdJuez</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
